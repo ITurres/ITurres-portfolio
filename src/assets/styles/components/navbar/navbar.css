@@ -1,0 +1,24 @@
+.my-navbar {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: var(--style-color-white);
+  padding: 0.8rem;
+}
+
+.my-navbar ul {
+  display: flex;
+}
+
+.my-navbar li {
+  margin: 0.5rem;
+}
+
+.my-navbar a {
+  color: var(--style-color-dark-blue);
+  font-weight: 600;
+}
+
+.my-navbar a:hover {
+  text-decoration: underline;
+}
