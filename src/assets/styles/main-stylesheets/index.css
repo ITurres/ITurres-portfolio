@@ -1,0 +1,25 @@
+/*resets*/
+@import "../resets/normalize.css";
+
+/*variables*/
+@import "../variables/colors.css";
+
+/*base*/
+@import "../base/base.css";
+
+/*utils-styles*/
+
+/*components*/
+@import "../components/navbar/navbar.css";
+
+/*UI*/
+@import "../components/UI/navbar-btn.css";
+
+/*UX*/
+
+/*page-sections*/
+
+/*config*/
+
+/*animations*/
+@import "../animations/toggle-visibility.css";
