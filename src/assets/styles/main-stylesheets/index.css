@@ -14,10 +14,11 @@
 
 /*UI*/
 @import "../components/UI/navbar-btn.css";
-
+@import "../components/UI/my-header-go-down-btn.css";
 /*UX*/
 
 /*page-sections*/
+@import "../page-sections/my-header.css";
 
 /*config*/
 
