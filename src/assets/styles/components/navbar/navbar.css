@@ -4,6 +4,7 @@
   align-items: center;
   background-color: var(--style-color-white);
   padding: 0.8rem;
+  z-index: 10; /*? do to 'go-down-btn' that has position absolute*/
 }
 
 .my-navbar ul {
