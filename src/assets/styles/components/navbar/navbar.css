@@ -7,10 +7,6 @@
   z-index: 10; /*? do to 'go-down-btn' that has position absolute*/
 }
 
-.my-navbar ul {
-  display: flex;
-}
-
 .my-navbar li {
   margin: 0.5rem;
 }
