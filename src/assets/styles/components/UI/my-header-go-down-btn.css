@@ -1,0 +1,15 @@
+.my-header__btn.go-down-btn {
+  position: absolute;
+  top: 90%;
+  border-radius: 100%;
+  margin: 0.5rem;
+  padding: 0.4rem 0.6rem 0.4rem 0.6rem; /*? it centers the fa-icon within the button*/
+  border: 1px solid rgb(189, 189, 189);
+  background-color: var(--style-color-white);
+  color: var(--style-color-dark-blue);
+  transition: border 0.2s ease-in-out;
+}
+
+.my-header__btn.go-down-btn:hover {
+  border: 1px solid var(--style-color-aqua-green);
+}
