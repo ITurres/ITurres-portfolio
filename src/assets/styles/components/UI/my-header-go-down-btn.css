@@ -1,4 +1,4 @@
-.my-header__btn.go-down-btn {
+.hero-section__btn.go-down-btn {
   position: absolute;
   top: 90%;
   border-radius: 100%;
@@ -10,6 +10,6 @@
   transition: border 0.2s ease-in-out;
 }
 
-.my-header__btn.go-down-btn:hover {
+.hero-section__btn.go-down-btn:hover {
   border: 1px solid var(--style-color-aqua-green);
 }

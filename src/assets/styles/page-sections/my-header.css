@@ -1,4 +1,4 @@
-.my-header {
+.hero-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,34 +13,34 @@
   text-align: center;
 }
 
-.my-header__title,
-.my-header__subtitle {
+.hero-section__title,
+.hero-section__subtitle {
   font-size: 2.5rem;
 }
 
-.my-header__title,
-.my-header__subtitle,
-.my-header__intro {
+.hero-section__title,
+.hero-section__subtitle,
+.hero-section__intro {
   font-family: "Inter", sans-serif;
   margin: 0; /* ? resets -normalize- margin */
   margin: 0 0.5rem;
 }
 
-.my-header__title,
-.my-header__intro {
+.hero-section__title,
+.hero-section__intro {
   color: var(--style-color-dark-blue);
 }
 
-.my-header__subtitle {
+.hero-section__subtitle {
   color: var(--style-color-aqua-green);
 }
 
-.my-header__intro {
+.hero-section__intro {
   font-size: 1.3rem;
   font-weight: 500;
   padding: 1rem;
 }
 
-.my-header__link {
+.hero-section__link {
   padding: 1rem 0.5rem;
 }

@@ -1,12 +1,12 @@
 @media (min-width: 768px) {
-  .my-header {
+  .hero-section {
     background-image: url("../../../media/sections-illustrations/desktop-illustrations/llustration-header-desktop.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
 
-  .my-header__title--wrapper {
+  .hero-section__title--wrapper {
     display: flex;
   }
 }
