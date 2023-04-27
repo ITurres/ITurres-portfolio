@@ -1,0 +1,5 @@
+@media (min-width: 768px) {
+  .my-header__title--wrapper {
+    display: flex;
+  }
+}
