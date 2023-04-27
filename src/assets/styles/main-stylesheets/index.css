@@ -21,6 +21,7 @@
 @import "../page-sections/my-header.css";
 
 /*config*/
+@import "../config/breakpoints/navbar-breakpoints.css";
 
 /*animations*/
 @import "../animations/toggle-visibility.css";
