@@ -14,7 +14,7 @@
 
 .my-header__title,
 .my-header__subtitle {
-  font-size: 2.3rem;
+  font-size: 2.5rem;
 }
 
 .my-header__title,
@@ -34,7 +34,7 @@
 }
 
 .my-header__intro {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 500;
   padding: 1rem;
 }
