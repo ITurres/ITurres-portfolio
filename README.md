@@ -2,6 +2,10 @@
 
 <div align="center">
 
+<img src="src/assets/media/sections-illustrations/desktop-illustrations/llustration-header-desktop.png"
+  alt="logo" width="160"  height="auto" />
+<br>
+
   <h2><b>ITurres Portftolio</b></h2>
 
 </div>
