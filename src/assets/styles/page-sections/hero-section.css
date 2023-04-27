@@ -41,6 +41,12 @@
   padding: 1rem;
 }
 
+.hero-section__nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .hero-section__link {
   padding: 1rem 0.5rem;
 }
