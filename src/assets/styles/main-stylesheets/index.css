@@ -1,28 +1,29 @@
-/*resets*/
+/* resets */
 @import "../resets/normalize.css";
 
-/*variables*/
+/* variables */
 @import "../variables/colors.css";
 
-/*base*/
+/* base */
 @import "../base/base.css";
 
-/*utils-styles*/
+/* utils-styles */
 
-/*components*/
+/* components */
 @import "../components/navbar/navbar.css";
 
-/*UI*/
+/* UI */
 @import "../components/UI/navbar-btn.css";
 @import "../components/UI/my-header-go-down-btn.css";
-/*UX*/
 
-/*page-sections*/
+/* UX */
+
+/* page-sections */
 @import "../page-sections/my-header.css";
 
-/*config*/
+/* config */
 @import "../config/breakpoints/navbar-breakpoints.css";
 @import "../config/breakpoints/my-header-breakpoints.css";
 
-/*animations*/
+/* animations */
 @import "../animations/toggle-visibility.css";

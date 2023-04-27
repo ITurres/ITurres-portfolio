@@ -3,7 +3,7 @@
   top: 90%;
   border-radius: 100%;
   margin: 0.5rem;
-  padding: 0.4rem 0.6rem 0.4rem 0.6rem; /*? it centers the fa-icon within the button*/
+  padding: 0.4rem 0.6rem 0.4rem 0.6rem; /* ? it centers the fa-icon within the button */
   border: 1px solid rgb(189, 189, 189);
   background-color: var(--style-color-white);
   color: var(--style-color-dark-blue);
