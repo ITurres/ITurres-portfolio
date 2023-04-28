@@ -1,0 +1,99 @@
+.about-section__about-me--wrapper,
+.about-section__tech-stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-section__about-me--wrapper {
+  background-image: url("../../media/sections-illustrations/mobile-illustrations/illustration-about-mobile.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 1.5rem;
+}
+
+.about-me__title {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+  padding: 0.5rem;
+  margin: 0.5rem 1rem;
+}
+
+.about-me__intro {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  padding: 1rem;
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+.about-me__title,
+.about-me__intro,
+.tech-stack__type {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  color: var(--style-color-dark-blue);
+  text-align: center;
+}
+
+.about-section__tech-stack-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.about-section__tech-stack {
+  background-color: var(--style-color-off-white);
+  border: 1px solid var(--style-color-tech-stack-gray);
+  border-radius: 0.5rem;
+  max-height: 325px;
+}
+
+.tech-stack__description-logo {
+  background-color: var(--style-color-white);
+  padding: 1rem;
+  border-radius: 100%;
+  margin: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tech-stack__type {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding: 0.5rem 1rem;
+}
+
+.tech-stack__title--wrapper.skills-stack {
+  margin: 0.5rem;
+}
+
+.tech-stack__title--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: self-start;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  padding: 0.5rem 0 1.5rem 0;
+  margin: 2rem;
+  margin-top: 0.5rem;
+  height: 100%;
+}
+
+.tech-stack__title {
+  width: fit-content;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1rem;
+  padding: 0.75rem;
+  background-color: var(--style-color-white);
+  color: var(--style-color-aqua-green);
+  border-radius: 0.5rem;
+}
