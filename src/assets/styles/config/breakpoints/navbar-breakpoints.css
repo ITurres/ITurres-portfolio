@@ -1,0 +1,16 @@
+@media (min-width: 768px) {
+  .my-navbar {
+    justify-content: center;
+    background-color: transparent;
+  }
+
+  .my-navbar ul {
+    display: flex;
+    visibility: visible;
+  }
+
+  .open-my-navbar__btn {
+    display: none;
+    visibility: hidden;
+  }
+}

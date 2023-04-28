@@ -1,0 +1,52 @@
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../media/sections-illustrations/mobile-illustrations/illsutration-header-mobile.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: calc(100vh - 65px); /* ? removes the navbar height */
+
+  /* ? height: calc(100svh - 65px); unit not currently known by Stylelint */
+  text-align: center;
+}
+
+.hero-section__title,
+.hero-section__subtitle {
+  font-size: 2.5rem;
+}
+
+.hero-section__title,
+.hero-section__subtitle,
+.hero-section__intro {
+  font-family: "Inter", sans-serif;
+  margin: 0; /* ? resets -normalize- margin */
+  margin: 0 0.5rem;
+}
+
+.hero-section__title,
+.hero-section__intro {
+  color: var(--style-color-dark-blue);
+}
+
+.hero-section__subtitle {
+  color: var(--style-color-aqua-green);
+}
+
+.hero-section__intro {
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 1rem;
+}
+
+.hero-section__nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section__link {
+  padding: 1rem 0.5rem;
+}

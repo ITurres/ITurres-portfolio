@@ -1,0 +1,29 @@
+/* resets */
+@import "../resets/normalize.css";
+
+/* variables */
+@import "../variables/colors.css";
+
+/* base */
+@import "../base/base.css";
+
+/* utils-styles */
+
+/* components */
+@import "../components/navbar/navbar.css";
+
+/* UI */
+@import "../components/UI/navbar-btn.css";
+@import "../components/UI/hero-section-go-down-btn.css";
+
+/* UX */
+
+/* page-sections */
+@import "../page-sections/hero-section.css";
+
+/* config */
+@import "../config/breakpoints/navbar-breakpoints.css";
+@import "../config/breakpoints/hero-section-breakpoints.css";
+
+/* animations */
+@import "../animations/toggle-visibility.css";
