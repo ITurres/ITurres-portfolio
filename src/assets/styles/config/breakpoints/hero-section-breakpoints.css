@@ -1,5 +1,6 @@
 @media (min-width: 768px) {
   .hero-section {
+    justify-content: flex-start;
     background-image: url("../../../media/sections-illustrations/desktop-illustrations/llustration-header-desktop.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -8,5 +9,35 @@
 
   .hero-section__title--wrapper {
     display: flex;
+    margin-top: 10rem;
+  }
+
+  .hero-section__title,
+  .hero-section__subtitle {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 3.75rem;
+  }
+
+  .hero-section__intro {
+    font-size: 1.75rem;
+    width: 58%;
+  }
+
+  .hero-section__btn.go-down-btn {
+    top: 67%;
+  }
+}
+
+@media (min-height: 768px) {
+  .hero-section__btn.go-down-btn {
+    top: 85%;
+  }
+}
+
+@media (max-height: 414px) {
+  .hero-section__btn.go-down-btn {
+    display: none;
+    visibility: hidden;
   }
 }
