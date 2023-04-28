@@ -21,7 +21,7 @@
 
 /* page-sections */
 @import "../page-sections/hero-section.css";
-@import "../page-sections/my-main.css";
+@import "../page-sections/my-main-projects-main-section.css";
 
 /* config */
 @import "../config/breakpoints/navbar-breakpoints.css";
