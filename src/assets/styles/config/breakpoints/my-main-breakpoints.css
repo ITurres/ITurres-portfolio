@@ -1,0 +1,14 @@
+@media (min-width: 768px) {
+  .recent-works.projects-container {
+    margin: auto;
+  }
+
+  .recent-works__title {
+    margin-bottom: 2rem;
+  }
+
+  .recent-works__hr-line {
+    display: none;
+    visibility: hidden;
+  }
+}
