@@ -1,0 +1,18 @@
+@media (min-width: 768px) {
+  #contact-section {
+    flex-direction: row;
+    margin-bottom: 10rem;
+  }
+
+  .contact-section__intro {
+    width: 100%;
+    align-self: flex-start;
+    font-size: 2rem;
+    margin: 5rem 1rem;
+    text-align: justify;
+  }
+
+  .contact-section__my-email {
+    display: none;
+  }
+}
