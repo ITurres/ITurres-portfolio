@@ -26,6 +26,7 @@
 @import "../page-sections/my-main-projects-main-section.css";
 @import "../page-sections/about-me-section.css";
 @import "../page-sections/contact-section.css";
+@import "../page-sections/footer.css";
 
 /* config */
 @import "../config/breakpoints/navbar-breakpoints.css";
@@ -33,6 +34,7 @@
 @import "../config/breakpoints/my-main-breakpoints.css";
 @import "../config/breakpoints/about-me-section-breakpoints.css";
 @import "../config/breakpoints/contact-section-breakpoints.css";
+@import "../config/breakpoints/footer-breakpoints.css";
 
 /* animations */
 @import "../animations/toggle-visibility.css";
