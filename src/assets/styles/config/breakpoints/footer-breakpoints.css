@@ -1,0 +1,5 @@
+@media (min-width: 768px) {
+  .my-footer {
+    border-top: 1px solid var(--style-color-light-gray);
+  }
+}
