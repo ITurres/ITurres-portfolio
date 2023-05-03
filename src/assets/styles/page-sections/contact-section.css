@@ -1,3 +1,10 @@
+#contact-section {
+  background-image: url("../../media/sections-illustrations/mobile-illustrations/illustration-contact-section-mobile.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
 .section-container {
   padding: 0 1.5rem;
 }
