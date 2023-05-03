@@ -1,5 +1,7 @@
 @media (min-width: 768px) {
   .my-navbar {
+    position: absolute;
+    width: 100%;
     justify-content: center;
     background-color: transparent;
   }
