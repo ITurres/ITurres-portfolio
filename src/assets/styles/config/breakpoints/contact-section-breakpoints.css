@@ -1,5 +1,9 @@
 @media (min-width: 768px) {
   #contact-section {
+    background-image: url("../../../media/sections-illustrations/desktop-illustrations/illustration-contact-section-desktop.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
     padding-bottom: 5rem;
   }
 
