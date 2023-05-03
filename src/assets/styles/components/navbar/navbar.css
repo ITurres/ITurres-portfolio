@@ -14,8 +14,11 @@
 .my-navbar a {
   color: var(--style-color-dark-blue);
   font-weight: 600;
+  transition: all 0.1s ease-in-out;
 }
 
 .my-navbar a:hover {
-  text-decoration: underline;
+  color: var(--style-color-aqua-green-hover);
+  border-bottom: 2px solid var(--style-color-aqua-green-hover);
+  padding-bottom: 0.3rem;
 }
