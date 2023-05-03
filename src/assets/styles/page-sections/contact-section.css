@@ -18,7 +18,7 @@
 }
 
 .contact-section__intro {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 2.5rem;
@@ -39,7 +39,7 @@ input[type="text"],
 input[type="email"],
 textarea,
 .contact-section__my-email {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
 }
@@ -66,7 +66,6 @@ input[type="email"]:focus,
 .contact-form textarea:focus {
   border: 1px solid var(--style-color-aqua-green-pressed);
   box-shadow: 0 0 3px var(--style-color-aqua-green-pressed);
-  outline-offset: 0px;
   outline: none;
 }
 
