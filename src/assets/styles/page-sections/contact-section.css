@@ -1,0 +1,77 @@
+#contact-section,
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem 0.5rem;
+}
+
+#contact-section {
+  align-items: center;
+  align-self: center;
+  width: 90%;
+}
+
+.contact-form {
+  gap: 1.7rem;
+  width: 100%;
+}
+
+.contact-section__intro {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+  text-align: center;
+  color: var(--style-color-dark-blue);
+  margin: 2rem 0;
+}
+
+input[type="text"],
+input[type="email"] {
+  line-height: 1.5rem;
+  border: 1px solid var(--style-color-light-gray);
+  padding: 0.5rem 0.8rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+.contact-section__my-email {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+input[type="text"],
+input[type="email"],
+.contact-form textarea {
+  font-style: italic;
+  font-size: 0.9rem;
+  border-radius: 0.25rem;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 114px;
+  max-height: 350px;
+  height: 100%;
+  border: 1px solid var(--style-color-aqua-green-textarea);
+  padding: 0.8rem 0.8rem;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+.contact-form textarea:focus {
+  border: 1px solid var(--style-color-aqua-green-pressed);
+  box-shadow: 0 0 3px var(--style-color-aqua-green-pressed);
+  outline: none;
+}
+
+.contact-section__my-email {
+  color: var(--style-color-dark-blue);
+  font-size: 1.25rem;
+  line-height: 2rem;
+  margin-bottom: 1.5rem;
+}

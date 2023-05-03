@@ -17,6 +17,7 @@
 @import "../components/UI/hero-section-go-down-btn.css";
 @import "../components/UI/project-card-btn.css";
 @import "../components/UI/about-me-tech-stack-btn.css";
+@import "../components/UI/contact-section-submit-btn.css";
 
 /* UX */
 
@@ -24,12 +25,16 @@
 @import "../page-sections/hero-section.css";
 @import "../page-sections/my-main-projects-main-section.css";
 @import "../page-sections/about-me-section.css";
+@import "../page-sections/contact-section.css";
+@import "../page-sections/footer.css";
 
 /* config */
 @import "../config/breakpoints/navbar-breakpoints.css";
 @import "../config/breakpoints/hero-section-breakpoints.css";
 @import "../config/breakpoints/my-main-breakpoints.css";
 @import "../config/breakpoints/about-me-section-breakpoints.css";
+@import "../config/breakpoints/contact-section-breakpoints.css";
+@import "../config/breakpoints/footer-breakpoints.css";
 
 /* animations */
 @import "../animations/toggle-visibility.css";

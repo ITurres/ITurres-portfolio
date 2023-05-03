@@ -1,0 +1,30 @@
+input[type="submit"] {
+  align-self: center;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  background: var(--style-color-aqua-green);
+  color: var(--style-color-white);
+  border-radius: 0.25rem;
+  border: none;
+  padding: 0.75rem;
+  width: fit-content;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--style-color-aqua-green-hover);
+  box-shadow: 0 0.5rem 1rem rgba(54, 179, 127, 0.24);
+}
+
+input[type="submit"]:active {
+  background-color: var(--style-color-aqua-green-pressed);
+}
+
+@media (min-width: 768px) {
+  input[type="submit"] {
+    align-self: flex-start;
+  }
+}
