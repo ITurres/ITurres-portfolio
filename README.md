@@ -177,6 +177,10 @@ Example:
 - Twitter: [@Arthur_ITurres](https://twitter.com/ArthurIturres)
 - LinkedIn: [Arthur Emanuel G. Iturres](https://www.linkedin.com/in/arturoemanuelguerraiturres/)
 
+👤 **Author2**
+
+- GitHub: [@Alibaba2023](https://github.com/Alibaba2023)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -218,7 +222,7 @@ Give a ⭐ if you liked this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I thank Microverse for this fantastic opportunity and the code reviewers for their advice and time!
+I thank Microverse for this fantastic opportunity, the code reviewers for their advice and time, and my coding partner [@Alibaba2023](https://github.com/Alibaba2023)!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
