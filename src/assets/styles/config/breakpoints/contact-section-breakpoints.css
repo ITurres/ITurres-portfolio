@@ -1,14 +1,19 @@
 @media (min-width: 768px) {
   #contact-section {
+    padding-bottom: 5rem;
+  }
+
+  .contact-section--wrapper {
     flex-direction: row;
+    margin-top: 2.5rem;
     margin-bottom: 10rem;
   }
 
   .contact-section__intro {
-    width: 100%;
+    width: 70%;
     align-self: flex-start;
-    font-size: 2rem;
-    margin: 5rem 1rem;
+    font-size: 1.9rem;
+    margin: 3rem 1.5rem 3rem 0;
     text-align: justify;
   }
 
