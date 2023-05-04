@@ -37,6 +37,12 @@
 .projects-card {
   flex-direction: column;
   justify-content: center;
+  transition: all 0.3s;
+}
+
+.projects-card:hover {
+  transform: translateY(-1rem);
+  box-shadow: var(--style-color-light-gray) 1px 10px 20px 1px;
 }
 
 .projects-card,
