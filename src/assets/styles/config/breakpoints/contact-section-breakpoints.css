@@ -3,7 +3,7 @@
     background-image: url("../../../media/sections-illustrations/desktop-illustrations/illustration-contact-section-desktop.png");
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: cover;
+    background-size: contain;
     padding-bottom: 5rem;
   }
 
