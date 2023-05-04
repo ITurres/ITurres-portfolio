@@ -10,7 +10,7 @@
 
   .hero-section__title--wrapper {
     display: flex;
-    margin-top: 10rem;
+    margin-top: 18rem;
   }
 
   .hero-section__title,
@@ -21,7 +21,6 @@
   }
 
   .hero-section__intro {
-    font-size: 1.75rem;
     width: 58%;
   }
 }
