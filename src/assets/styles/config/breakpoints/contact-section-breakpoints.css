@@ -1,18 +1,33 @@
 @media (min-width: 768px) {
   #contact-section {
+    background-image: url("../../../media/sections-illustrations/desktop-illustrations/illustration-contact-section-desktop.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    padding-bottom: 5rem;
+  }
+
+  .contact-section--wrapper {
     flex-direction: row;
+    margin-top: 2.5rem;
     margin-bottom: 10rem;
   }
 
   .contact-section__intro {
-    width: 100%;
+    width: 70%;
     align-self: flex-start;
-    font-size: 2rem;
-    margin: 5rem 1rem;
+    font-size: 1.9rem;
+    margin: 3rem 1.5rem 3rem 0;
     text-align: justify;
   }
 
   .contact-section__my-email {
     display: none;
+  }
+}
+
+@media (min-width: 1730px) {
+  #contact-section {
+    background-size: cover;
   }
 }

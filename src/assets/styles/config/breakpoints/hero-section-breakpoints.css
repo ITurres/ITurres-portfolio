@@ -5,11 +5,12 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 100vh;
   }
 
   .hero-section__title--wrapper {
     display: flex;
-    margin-top: 10rem;
+    margin-top: 18rem;
   }
 
   .hero-section__title,
@@ -20,18 +21,7 @@
   }
 
   .hero-section__intro {
-    font-size: 1.75rem;
     width: 58%;
-  }
-
-  .hero-section__btn.go-down-btn {
-    top: 67%;
-  }
-}
-
-@media (min-height: 768px) {
-  .hero-section__btn.go-down-btn {
-    top: 85%;
   }
 }
 

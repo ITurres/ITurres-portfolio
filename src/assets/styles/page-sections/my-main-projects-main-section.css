@@ -30,7 +30,7 @@
 .recent-works.projects-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
-  margin: 1.5rem; /* !remove this on breakpoints */
+  margin: 1.5rem 0;
   gap: 1.5rem;
 }
 
@@ -60,11 +60,12 @@
 
 .projects-card__img {
   width: -webkit-fill-available;
+  height: 265px;
 }
 
 .projects-card__tech-stack--wrapper {
-  justify-content: space-evenly;
-  gap: 0.4rem;
+  justify-content: center;
+  gap: 0.6rem;
   padding: 0.5rem 0 1rem 0;
 }
 

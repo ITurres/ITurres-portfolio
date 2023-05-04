@@ -45,3 +45,9 @@ a {
 h1 {
   margin: 0;
 }
+
+@media (min-width: 768px) {
+  .section-container {
+    padding: 0 1.5rem;
+  }
+}
