@@ -25,3 +25,9 @@
     display: none;
   }
 }
+
+@media (min-width: 1730px) {
+  #contact-section {
+    background-size: cover;
+  }
+}
