@@ -18,3 +18,9 @@
     width: 50%;
   }
 }
+
+@media (min-width: 1730px) {
+  .about-section__about-me--wrapper {
+    background-size: cover;
+  }
+}
