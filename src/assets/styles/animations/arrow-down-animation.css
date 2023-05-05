@@ -1,0 +1,27 @@
+.animated-arrow-down {
+  color: var(--style-color-aqua-green);
+  animation: slideDown 1.5s infinite;
+}
+
+@keyframes slideDown {
+  0% {
+    color: var(--style-color-dark-blue);
+    position: relative;
+    top: -20px;
+    opacity: 1;
+  }
+
+  50% {
+    color: var(--style-color-aqua-green-pressed);
+    position: relative;
+    top: 50px;
+    opacity: 0.5;
+  }
+
+  100% {
+    color: var(--style-color-aqua-green-hover);
+    position: relative;
+    top: 150px;
+    opacity: 0;
+  }
+}

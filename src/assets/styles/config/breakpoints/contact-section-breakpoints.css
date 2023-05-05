@@ -21,6 +21,14 @@
     text-align: justify;
   }
 
+  .contact-form {
+    transition: all 0.5s ease-in-out;
+  }
+
+  .contact-form:hover {
+    transform: translateX(0.8rem);
+  }
+
   .contact-section__my-email {
     display: none;
   }
