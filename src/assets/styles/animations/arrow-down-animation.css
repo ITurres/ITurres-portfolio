@@ -10,12 +10,14 @@
     top: -20px;
     opacity: 1;
   }
+
   50% {
     color: var(--style-color-aqua-green-pressed);
     position: relative;
     top: 50px;
     opacity: 0.5;
   }
+
   100% {
     color: var(--style-color-aqua-green-hover);
     position: relative;

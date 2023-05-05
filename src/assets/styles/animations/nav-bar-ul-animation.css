@@ -4,14 +4,15 @@
 }
 
 @keyframes move-navbar {
-  0%{
+  0% {
     visibility: hidden;
   }
 
-  50%{
+  50% {
     margin-top: 5rem;
   }
-  100%{
+
+  100% {
     visibility: visible;
     margin-top: 0;
   }
