@@ -48,8 +48,8 @@
 }
 
 .projects-card:hover {
-  transform: translateY(-1rem);
-  box-shadow: var(--style-color-light-gray) 1px 10px 20px 1px;
+  transform: translateY(0.5rem);
+  box-shadow: var(--style-color-light-gray) 5px 5px 20px 1px;
 }
 
 .recent-works .projects-card,
