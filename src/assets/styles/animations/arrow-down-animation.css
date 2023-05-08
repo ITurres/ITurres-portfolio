@@ -1,9 +1,82 @@
 .animated-arrow-down {
+  font-size: 0.9rem;
   color: var(--style-color-aqua-green);
-  animation: slideDown 1.5s infinite;
+  -webkit-animation: slidedown 1.5s infinite; /* Safari 4+ */
+  -moz-animation: slidedown 1.5s infinite; /* Fx 5+ */
+  -o-animation: slidedown 1.5s infinite; /* Opera 12+ */
+  animation: slidedown 1.5s infinite; /* IE 10+, Fx 29+ */
 }
 
-@keyframes slideDown {
+@-webkit-keyframes slidedown {
+  0% {
+    color: var(--style-color-dark-blue);
+    position: relative;
+    top: -20px;
+    opacity: 1;
+  }
+
+  50% {
+    color: var(--style-color-aqua-green-pressed);
+    position: relative;
+    top: 50px;
+    opacity: 0.5;
+  }
+
+  100% {
+    color: var(--style-color-aqua-green-hover);
+    position: relative;
+    top: 150px;
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes slidedown {
+  0% {
+    color: var(--style-color-dark-blue);
+    position: relative;
+    top: -20px;
+    opacity: 1;
+  }
+
+  50% {
+    color: var(--style-color-aqua-green-pressed);
+    position: relative;
+    top: 50px;
+    opacity: 0.5;
+  }
+
+  100% {
+    color: var(--style-color-aqua-green-hover);
+    position: relative;
+    top: 150px;
+    opacity: 0;
+  }
+}
+
+@-o-keyframes slidedown {
+  0% {
+    color: var(--style-color-dark-blue);
+    position: relative;
+    top: -20px;
+    opacity: 1;
+  }
+
+  50% {
+    color: var(--style-color-aqua-green-pressed);
+    position: relative;
+    top: 50px;
+    opacity: 0.5;
+  }
+
+  100% {
+    color: var(--style-color-aqua-green-hover);
+    position: relative;
+    top: 150px;
+    opacity: 0;
+  }
+}
+
+@keyframes slidedown {
   0% {
     color: var(--style-color-dark-blue);
     position: relative;
