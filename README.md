@@ -18,6 +18,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -69,6 +70,14 @@
 <!-- - **[key_feature_1]**
 - **[key_feature_2]**
 - **[key_feature_3]** -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [ITurres Portfolio - Live Demo Link](https://iturres.github.io/ITurres-portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -188,7 +197,6 @@ Example:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - Dynamic style
-- Deployment link
 - Several webpages
 - links pointing to projects
 - link pointing to resume

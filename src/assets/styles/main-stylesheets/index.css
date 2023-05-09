@@ -38,5 +38,6 @@
 
 /* animations */
 @import "../animations/toggle-visibility.css";
-@import "../animations/nav-bar-ul-animation.css";
+@import "../animations/navbar-ul-slidedown-animation.css";
 @import "../animations/arrow-down-animation.css";
+@import "../animations/about-stack-stack-animation.css";

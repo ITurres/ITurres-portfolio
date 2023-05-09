@@ -1,0 +1,74 @@
+.about-section__tech-stack {
+  position: relative;
+  overflow: hidden;
+}
+
+.tech-stack__description-logo,
+.tech-stack__type-title,
+.tech-stack__title--wrapper {
+  z-index: 2;
+}
+
+.about-section__tech-stack::before {
+  content: "";
+  position: absolute;
+  width: 180%;
+  height: 90%;
+  background:
+    linear-gradient(
+      var(--style-color-off-white),
+      var(--style-color-aqua-green)
+    );
+  -webkit-animation: snakyborder 7s linear infinite; /* Safari 4+ */
+  -moz-animation: snakyborder 7s linear infinite; /* Fx 5+ */
+  -o-animation: snakyborder 7s linear infinite; /* Opera 12+ */
+  animation: snakyborder 7s linear infinite; /* IE 10+, Fx 29+ */
+}
+
+.about-section__tech-stack::after {
+  content: "";
+  position: absolute;
+  background: var(--style-color-off-white);
+  border-radius: 0.5rem;
+  inset: 2px;
+}
+
+@-webkit-keyframes snakyborder {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes snakyborder {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes snakyborder {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes snakyborder {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
