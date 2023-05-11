@@ -19,6 +19,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
     - [🚀 Live Demo](#live-demo)
+    - [📹 Loom Walkthrough](#loom-Walkthrough)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -78,6 +79,14 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [ITurres Portfolio - Live Demo Link](https://iturres.github.io/ITurres-portfolio/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 📹 Loom Walkthrough <a name="loom-walkthrough"></a>
+
+- [ITurres Portfolio - Loom Walkthrough](https://www.loom.com/share/290c80d022f54af1ac54b625fdeb67b4)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
