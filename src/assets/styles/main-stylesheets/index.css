@@ -20,6 +20,7 @@
 @import "../components/UI/contact-section-submit-btn.css";
 
 /* UX */
+@import "../components/UX/toggle-mobile-menu.css";
 
 /* page-sections */
 @import "../page-sections/hero-section.css";
