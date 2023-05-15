@@ -1,16 +1,9 @@
 @media (min-width: 768px) {
   .my-navbar ul {
-    -webkit-animation: navbarslidedownanimation 3.5s ease-in-out 0.5s 1
-      alternate backwards; /* Safari 4+ */
-
-    -moz-animation: navbarslidedownanimation 3.5s ease-in-out 0.5s 1 alternate
-      backwards; /* Fx 5+ */
-
-    -o-animation: navbarslidedownanimation 3.5s ease-in-out 0.5s 1 alternate
-      backwards; /* Opera 12+ */
-
-    animation: navbarslidedownanimation 3.5s ease-in-out 0.5s 1 alternate
-      backwards; /* IE 10+, Fx 29+ */
+    -webkit-animation: navbarslidedownanimation 3.5s ease-in-out 0.5s 1 alternate backwards; /* Safari 4+ */
+    -moz-animation: navbarslidedownanimation 3.5s ease-in-out 0.5s 1 alternate backwards; /* Fx 5+ */
+    -o-animation: navbarslidedownanimation 3.5s ease-in-out 0.5s 1 alternate backwards; /* Opera 12+ */
+    animation: navbarslidedownanimation 3.5s ease-in-out 0.5s 1 alternate backwards; /* IE 10+, Fx 29+ */
   }
 
   @-webkit-keyframes navbarslidedownanimation {
