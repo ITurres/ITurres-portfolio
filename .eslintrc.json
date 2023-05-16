@@ -15,7 +15,6 @@
     "no-param-reassign": "off",
     "eol-last": "off",
     "comma-dangle": ["error", "never"],
-    "linebreak-style": ["error", "windows"],
     "import/extensions": [
       1,
       {
