@@ -7,9 +7,9 @@
   z-index: 10; /* ? do to 'go-down-btn' that has position absolute */
 }
 
-.my-navbar ul {
-  display: none;
-  visibility: hidden;
+.my-navbar.toggle-mobile-menu ul {
+  width: 100%;
+  margin-top: 3rem;
 }
 
 .my-navbar li {
@@ -17,8 +17,11 @@
 }
 
 .my-navbar a {
-  color: var(--style-color-dark-blue);
+  font-family: "Inter", sans-serif;
   font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.75rem;
+  color: var(--style-color-dark-blue);
   transition: all 0.1s ease-in-out;
 }
 

@@ -9,3 +9,15 @@
   border-radius: 100%;
   background-color: var(--style-color-off-white);
 }
+
+.close-my-navbar__btn {
+  font-size: 1rem;
+  color: var(--style-color-tech-stack-gray);
+  padding: 1rem 1.5rem 1rem 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.close-my-navbar__btn:hover {
+  color: var(--style-color-aqua-green);
+  transform: scale(1.1);
+}

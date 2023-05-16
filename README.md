@@ -199,6 +199,10 @@ Example:
 
 - GitHub: [@Alibaba2023](https://github.com/Alibaba2023)
 
+👤 **Author3**
+
+- GitHub: [@ClaudiaRojasSoto ](https://github.com/ClaudiaRojasSoto)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -239,7 +243,7 @@ Give a ⭐ if you liked this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I thank Microverse for this fantastic opportunity, the code reviewers for their advice and time, and my coding partner [@Alibaba2023](https://github.com/Alibaba2023)!
+I thank Microverse for this fantastic opportunity, the code reviewers for their advice and time, and my coding partners [@Alibaba2023](https://github.com/Alibaba2023) and [@ClaudiaRojasSoto ](https://github.com/ClaudiaRojasSoto)!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

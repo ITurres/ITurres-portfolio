@@ -18,21 +18,46 @@
   </head>
   <body id="go-top">
     <header>
-      <nav id="my-navbar" class="my-navbar">
+      <nav id="my-navbar" class="my-navbar" data-my-navbar>
         <ul class="hidden">
           <li>
-            <a class="my-navbar__link" href="#go-top">Portfolio</a>
+            <a
+              class="my-navbar__link"
+              href="#go-top"
+              data-links-toggle-navbar-menu
+              >Portfolio</a
+            >
           </li>
-          <li><a class="my-navbar__link" href="#about-section">About</a></li>
           <li>
-            <a class="my-navbar__link" href="#contact-section">Contact</a>
+            <a
+              class="my-navbar__link"
+              href="#about-section"
+              data-links-toggle-navbar-menu
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              class="my-navbar__link"
+              href="#contact-section"
+              data-links-toggle-navbar-menu
+              >Contact</a
+            >
           </li>
         </ul>
-        <span class="close-my-navbar__btn my-btn hidden" data-open-my-navbar>
+        <span
+          id="close-menu"
+          class="close-my-navbar__btn my-btn hidden"
+          data-button-toggle-navbar-menu
+        >
           <i class="fa-solid fa-x"></i>
         </span>
         <div class="open-my-navbar">
-          <span class="open-my-navbar__btn my-btn" data-close-my-navbar>
+          <span
+            id="open-menu"
+            class="open-my-navbar__btn my-btn"
+            data-button-toggle-navbar-menu
+          >
             <i class="fa-solid fa-bars"></i>
           </span>
         </div>
@@ -449,6 +474,10 @@
     <script
       src="https://kit.fontawesome.com/5d25a44371.js"
       crossorigin="anonymous"
+    ></script>
+    <script
+      src="src/assets/js/UX/toggle-mobile-menu.js"
+      type="application/javascript"
     ></script>
   </body>
 </html>
