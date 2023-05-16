@@ -1,10 +1,11 @@
 .projects-card__btn {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 1.06rem;
   font-weight: 500;
   line-height: 1.5rem;
   background-color: var(--style-color-aqua-green);
   color: var(--style-color-white);
+  border: none;
   border-radius: 0.25rem;
   margin: 1rem 0 1.5rem 0;
   padding: 0.75rem;
