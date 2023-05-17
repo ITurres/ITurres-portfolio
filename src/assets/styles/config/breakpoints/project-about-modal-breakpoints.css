@@ -1,54 +1,59 @@
 @media (min-width: 768px) {
-    .modal {
-      padding-top: 3.5rem;
-      overflow-y: hidden;
-    }
-  
-    .modal-content,
-    .modal-close-btn--wrapper,
-    .modal-project-image,
-    .modal-main-data {
-      border-radius: 0.5rem;
-      width: 95%;
-    }
-  
-    .modal-content {
-      max-width: 900px;
-    }
-  
-    .modal-close-btn--wrapper {
-      position: initial;
-      margin-top: 1rem;
-    }
-  
-    .modal-close-btn--wrapper .my-btn {
-      background-color: var(--style-color-light-gray);
-      color: var(--style-color-dark-blue);
-      border-radius: 0.5rem;
-      padding: 0.5rem 0.7rem;
-      margin-top: 0.5rem;
-      transition: all 0.1s ease-in-out;
-    }
-  
-    .modal-close-btn--wrapper .my-btn:hover {
-      opacity: 0.7;
-    }
-  
-    .modal-ul.projects-card__tech-stack--wrapper {
-      margin-bottom: 1.5rem;
-    }
-  
-    .modal-links--wrapper {
-      float: right;
-      position: relative;
-      top: -170px;
-    }
-  
-    .modal-link {
-      border-radius: 0.5rem;
-    }
-  
-    .modal-projects-description {
-      margin-bottom: -2rem;
-    }
+  .modal {
+    padding-top: 3.5rem;
+    overflow-y: hidden;
   }
+
+  .modal-content,
+  .modal-close-btn--wrapper,
+  .modal-project-image,
+  .modal-main-data {
+    border-radius: 0.5rem;
+    width: 95%;
+  }
+
+  .modal-content {
+    max-width: 900px;
+  }
+
+  .modal-close-btn--wrapper {
+    position: initial;
+    margin-top: 1rem;
+  }
+
+  .modal-close-btn--wrapper .my-btn {
+    background-color: var(--style-color-light-gray);
+    color: var(--style-color-dark-blue);
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.7rem;
+    margin-top: 0.5rem;
+    transition: all 0.1s ease-in-out;
+  }
+
+  .modal-close-btn--wrapper .my-btn:hover {
+    opacity: 0.7;
+  }
+
+  .modal-project-title {
+    width: 65%;
+  }
+
+  .modal-ul.projects-card__tech-stack--wrapper {
+    margin-bottom: 1.5rem;
+  }
+
+  .modal-links--wrapper {
+    float: right;
+    position: relative;
+    top: -170px;
+    margin-top: 1rem;
+  }
+
+  .modal-link {
+    border-radius: 0.5rem;
+  }
+
+  .modal-projects-description {
+    margin-bottom: -2rem;
+  }
+}
