@@ -40,6 +40,7 @@
 
   .modal-ul.projects-card__tech-stack--wrapper {
     margin-bottom: 1.5rem;
+    width: 61%;
   }
 
   .modal-links--wrapper {
