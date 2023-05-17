@@ -1,44 +1,44 @@
 /* resets */
-@import "../resets/normalize.css";
+@import '../resets/normalize.css';
 
 /* variables */
-@import "../variables/colors.css";
+@import '../variables/colors.css';
 
 /* base */
-@import "../base/base.css";
+@import '../base/base.css';
 
 /* utils-styles */
 
 /* components */
-@import "../components/navbar/navbar.css";
+@import '../components/navbar/navbar.css';
 
 /* UI */
-@import "../components/UI/navbar-btn.css";
-@import "../components/UI/hero-section-go-down-btn.css";
-@import "../components/UI/project-card-btn.css";
-@import "../components/UI/about-me-tech-stack-btn.css";
-@import "../components/UI/contact-section-submit-btn.css";
+@import '../components/UI/navbar-btn.css';
+@import '../components/UI/hero-section-go-down-btn.css';
+@import '../components/UI/my-custom-button.css';
+@import '../components/UI/contact-section-submit-btn.css';
 
 /* UX */
-@import "../components/UX/toggle-mobile-menu.css";
+@import '../components/UX/toggle-mobile-menu.css';
+@import '../components/UX/project-about-modal.css';
 
 /* page-sections */
-@import "../page-sections/hero-section.css";
-@import "../page-sections/my-main-projects-main-section.css";
-@import "../page-sections/about-me-section.css";
-@import "../page-sections/contact-section.css";
-@import "../page-sections/footer.css";
+@import '../page-sections/hero-section.css';
+@import '../page-sections/my-main-projects-main-section.css';
+@import '../page-sections/about-me-section.css';
+@import '../page-sections/contact-section.css';
+@import '../page-sections/footer.css';
 
 /* config */
-@import "../config/breakpoints/navbar-breakpoints.css";
-@import "../config/breakpoints/hero-section-breakpoints.css";
-@import "../config/breakpoints/my-main-breakpoints.css";
-@import "../config/breakpoints/about-me-section-breakpoints.css";
-@import "../config/breakpoints/contact-section-breakpoints.css";
-@import "../config/breakpoints/footer-breakpoints.css";
+@import '../config/breakpoints/navbar-breakpoints.css';
+@import '../config/breakpoints/hero-section-breakpoints.css';
+@import '../config/breakpoints/my-main-breakpoints.css';
+@import '../config/breakpoints/about-me-section-breakpoints.css';
+@import '../config/breakpoints/contact-section-breakpoints.css';
+@import '../config/breakpoints/footer-breakpoints.css';
 
 /* animations */
-@import "../animations/toggle-visibility.css";
-@import "../animations/navbar-ul-slidedown-animation.css";
-@import "../animations/arrow-down-animation.css";
-@import "../animations/about-stack-stack-animation.css";
+@import '../animations/toggle-visibility.css';
+@import '../animations/navbar-ul-slidedown-animation.css';
+@import '../animations/arrow-down-animation.css';
+@import '../animations/about-stack-stack-animation.css';
