@@ -33,6 +33,7 @@
 @import '../config/breakpoints/navbar-breakpoints.css';
 @import '../config/breakpoints/hero-section-breakpoints.css';
 @import '../config/breakpoints/my-main-breakpoints.css';
+@import '../config/breakpoints/project-about-modal-breakpoints.css';
 @import '../config/breakpoints/about-me-section-breakpoints.css';
 @import '../config/breakpoints/contact-section-breakpoints.css';
 @import '../config/breakpoints/footer-breakpoints.css';
