@@ -11,7 +11,7 @@ export const projectCardMarkupTemplate = (...projectsData) => {
     </ul>
     <button
       id="${projectsDataData.id}"
-      class="projects-card__btn my-btn"
+      class="my-custom-button my-btn"
       >See project</
     button>
   </div>`;
