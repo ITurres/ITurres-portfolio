@@ -12,6 +12,7 @@ export const projectCardMarkupTemplate = (...projectsData) => {
     <button
       id="${projectsDataData.id}"
       class="my-custom-button my-btn"
+      data-see-project-btn
       >See project</
     button>
   </div>`;
