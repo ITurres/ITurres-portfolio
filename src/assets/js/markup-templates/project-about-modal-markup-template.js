@@ -2,7 +2,7 @@ export const projectAboutModal = (...projectsData) => {
   const projectsDataData = projectsData[0];
   return `<div class="modal-content">
       <div class="modal-close-btn--wrapper" data-close-project-about>
-        <button class="my-btn"><i class="fa-solid fa-x"></i></button>
+        <button class="my-btn" data-close-project-about><i class="fa-solid fa-x"></i></button>
       </div>
       <img src="${projectsDataData.img.src}" alt="${projectsDataData.img.alt}" class="modal-project-image" />
       <div class="modal-main-data">
@@ -50,4 +50,5 @@ export const projectAboutModal = (...projectsData) => {
     </div>`;
 };
 
-export const modalTechStackMarkupTemplate = (stackName) => `<li class="projects-card__tech-stack">${stackName}</li>`;
+export const modalTechStackMarkupTemplate = (stackName) =>
+  `<li class="projects-card__tech-stack">${stackName}</li>`;
