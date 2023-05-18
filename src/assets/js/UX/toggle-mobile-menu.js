@@ -1,27 +1,27 @@
-const navbar = document.querySelector('[data-my-navbar]');
+const navbar = document.querySelector("[data-my-navbar]");
 const toggleNavbarMenuButtons = document.querySelectorAll(
-  '[data-button-toggle-navbar-menu]'
+  "[data-button-toggle-navbar-menu]"
 );
 const toggleNavbarMenuLinks = document.querySelectorAll(
-  '[data-links-toggle-navbar-menu]'
+  "[data-links-toggle-navbar-menu]"
 );
 
 const toggleMobileMenu = () => {
-  navbar.classList.toggle('toggle-mobile-menu');
+  navbar.classList.toggle("toggle-mobile-menu");
 };
 
 const toggleMobileMenuLinksVisibility = () => {
-  navbar.children[0].classList.toggle('hidden'); // ? toggles the ul classlist
+  navbar.children[0].classList.toggle("hidden"); // ? toggles the ul classlist
 };
 
 const toggleCloseOpenButtons = () => {
   toggleNavbarMenuButtons.forEach((button) => {
-    button.classList.toggle('hidden');
+    button.classList.toggle("hidden");
   });
 };
 
 toggleNavbarMenuButtons.forEach((button) => {
-  button.addEventListener('click', () => {
+  button.addEventListener("click", () => {
     toggleMobileMenu();
     toggleMobileMenuLinksVisibility();
     toggleCloseOpenButtons();
@@ -29,9 +29,11 @@ toggleNavbarMenuButtons.forEach((button) => {
 });
 
 toggleNavbarMenuLinks.forEach((link) => {
-  link.addEventListener('click', () => {
-    toggleMobileMenu();
-    toggleMobileMenuLinksVisibility();
-    toggleCloseOpenButtons();
+  link.addEventListener("click", () => {
+    if (window.innerWidth <= 768) {
+      toggleMobileMenu();
+      toggleMobileMenuLinksVisibility();
+      toggleCloseOpenButtons();
+    }
   });
 });
