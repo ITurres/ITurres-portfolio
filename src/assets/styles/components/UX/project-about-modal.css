@@ -1,0 +1,97 @@
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 500;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-color: var(--style-color-blue-transparent);
+  backdrop-filter: blur(1rem);
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+
+.modal-content,
+.modal-close-btn--wrapper,
+.modal-project-image,
+.modal-main-data {
+  border-radius: 1rem;
+  width: 90%;
+}
+
+.modal-content,
+.modal-close-btn--wrapper,
+.modal-links--wrapper,
+.modal-link {
+  display: flex;
+}
+
+.modal-content {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--style-color-white);
+  margin: 0 auto;
+}
+
+.modal-close-btn--wrapper {
+  justify-content: flex-end;
+  position: absolute;
+  width: 78%;
+  top: 45px;
+}
+
+.modal-close-btn--wrapper .my-btn {
+  background-color: var(--style-color-aqua-green-transparent);
+  color: var(--style-color-white);
+  border: none;
+  border-radius: 0.8rem;
+  padding: 0.5rem 0.8rem;
+  transition: all 0.1s ease-in-out;
+}
+
+.modal-close-btn--wrapper .my-btn:hover {
+  color: var(--style-color-aqua-green-hover);
+}
+
+.modal-project-image {
+  margin-top: 1rem;
+}
+
+.modal-project-title,
+.modal-projects-description {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  color: var(--style-color-dark-blue);
+}
+
+.modal-project-title {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.75rem;
+  padding-top: 1rem;
+}
+
+.modal-projects-description {
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.modal-ul.projects-card__tech-stack--wrapper {
+  justify-content: flex-start;
+  padding: 0.6rem 0;
+  height: auto;
+}
+
+.modal-links--wrapper,
+.modal-link {
+  align-items: center;
+  gap: 1rem;
+}
+
+.modal-link {
+  margin: 1rem 0 1rem 0;
+}

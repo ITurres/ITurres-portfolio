@@ -1,21 +1,22 @@
-.projects-card__btn {
-  font-family: "Inter", sans-serif;
+.my-custom-button {
+  font-family: 'Inter', sans-serif;
   font-size: 1.06rem;
   font-weight: 500;
   line-height: 1.5rem;
   background-color: var(--style-color-aqua-green);
   color: var(--style-color-white);
+  border: none;
   border-radius: 0.25rem;
   margin: 1rem 0 1.5rem 0;
   padding: 0.75rem;
   transition: box-shadow 0.2s ease-in-out;
 }
 
-.projects-card__btn:hover {
+.my-custom-button:hover {
   background-color: var(--style-color-aqua-green-hover);
   box-shadow: 0 0.5rem 1rem rgba(54, 179, 127, 0.24);
 }
 
-.projects-card__btn:active {
+.my-custom-button:active {
   background-color: var(--style-color-aqua-green-pressed);
 }

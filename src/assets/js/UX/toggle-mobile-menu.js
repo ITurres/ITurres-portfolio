@@ -30,8 +30,10 @@ toggleNavbarMenuButtons.forEach((button) => {
 
 toggleNavbarMenuLinks.forEach((link) => {
   link.addEventListener('click', () => {
-    toggleMobileMenu();
-    toggleMobileMenuLinksVisibility();
-    toggleCloseOpenButtons();
+    if (window.innerWidth <= 768) {
+      toggleMobileMenu();
+      toggleMobileMenuLinksVisibility();
+      toggleCloseOpenButtons();
+    }
   });
 });

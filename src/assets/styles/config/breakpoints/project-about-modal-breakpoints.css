@@ -1,0 +1,78 @@
+@media (min-width: 768px) {
+  .modal {
+    padding-top: 3.5rem;
+
+    /* Foreground, Background */
+    scrollbar-color: var(--style-color-aqua-green) var(--style-color-light-gray);
+  }
+
+  .modal::-webkit-scrollbar {
+    width: 0.7rem; /* Mostly for vertical scrollbars */
+    height: 0.7rem; /* Mostly for horizontal scrollbars */
+  }
+
+  .modal::-webkit-scrollbar-thumb {
+    /* Foreground */
+    background: var(--style-color-aqua-green);
+    border-radius: 1rem;
+  }
+
+  .modal::-webkit-scrollbar-track {
+    /* Background */
+    background: var(--style-color-light-gray);
+  }
+
+  .modal-content,
+  .modal-close-btn--wrapper,
+  .modal-project-image,
+  .modal-main-data {
+    border-radius: 0.5rem;
+    width: 95%;
+  }
+
+  .modal-content {
+    max-width: 900px;
+  }
+
+  .modal-close-btn--wrapper {
+    position: initial;
+    margin-top: 1rem;
+  }
+
+  .modal-close-btn--wrapper .my-btn {
+    background-color: var(--style-color-light-gray);
+    color: var(--style-color-dark-blue);
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.7rem;
+    margin-top: 0.5rem;
+    transition: all 0.1s ease-in-out;
+  }
+
+  .modal-close-btn--wrapper .my-btn:hover {
+    opacity: 0.7;
+  }
+
+  .modal-project-title {
+    width: 65%;
+  }
+
+  .modal-ul.projects-card__tech-stack--wrapper {
+    margin-bottom: 1.5rem;
+    width: 61%;
+  }
+
+  .modal-links--wrapper {
+    float: right;
+    position: relative;
+    top: -170px;
+    margin-top: 1rem;
+  }
+
+  .modal-link {
+    border-radius: 0.5rem;
+  }
+
+  .modal-projects-description {
+    margin-bottom: -2rem;
+  }
+}
