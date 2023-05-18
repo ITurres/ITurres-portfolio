@@ -21,6 +21,7 @@
 /* UX */
 @import '../components/UX/toggle-mobile-menu.css';
 @import '../components/UX/project-about-modal.css';
+@import '../components/UX/contact-form-error-messages.css';
 
 /* page-sections */
 @import '../page-sections/hero-section.css';

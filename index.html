@@ -231,6 +231,7 @@
           action="https://formspree.io/f/xbjewgpg"
           class="contact-form"
           method="post"
+          data-contact-form
         >
           <input
             type="text"
@@ -243,6 +244,7 @@
             type="email"
             name="contact-email"
             placeholder="Email address"
+            data-form-email-input
             required
           />
           <textarea
@@ -253,7 +255,12 @@
             maxlength="500"
             required
           ></textarea>
-          <input type="submit" value="Get in touch" class="my-btn" />
+          <input
+            type="submit"
+            value="Get in touch"
+            class="my-btn"
+            data-form-submit-btn
+          />
         </form>
         <p class="contact-section__my-email">emanueliturres.co@gmail.com</p>
       </div>
@@ -342,6 +349,10 @@
     ></script>
     <script
       src="src/assets/js/UX/close-project-about-modal.js"
+      type="module"
+    ></script>
+    <script
+      src="src/assets/js/form-controller/form-controller.js"
       type="module"
     ></script>
   </body>
