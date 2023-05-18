@@ -1,0 +1,15 @@
+.form-input-error-message::before {
+  content: '* ';
+  font-weight: bold;
+}
+.form-input-error-message {
+  color: red;
+  font-weight: 500;
+  font-style: oblique;
+}
+
+@media (max-width: 768px) {
+  .form-input-error-message {
+    text-align: center;
+  }
+}
