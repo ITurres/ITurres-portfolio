@@ -1,7 +1,25 @@
 @media (min-width: 768px) {
   .modal {
     padding-top: 3.5rem;
-    overflow-y: hidden;
+
+    /* Foreground, Background */
+    scrollbar-color: var(--style-color-aqua-green) var(--style-color-light-gray);
+  }
+
+  .modal::-webkit-scrollbar {
+    width: 0.7rem; /* Mostly for vertical scrollbars */
+    height: 0.7rem; /* Mostly for horizontal scrollbars */
+  }
+
+  .modal::-webkit-scrollbar-thumb {
+    /* Foreground */
+    background: var(--style-color-aqua-green);
+    border-radius: 1rem;
+  }
+
+  .modal::-webkit-scrollbar-track {
+    /* Background */
+    background: var(--style-color-light-gray);
   }
 
   .modal-content,
