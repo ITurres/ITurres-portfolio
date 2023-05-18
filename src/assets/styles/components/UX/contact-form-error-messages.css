@@ -2,6 +2,7 @@
   content: '* ';
   font-weight: bold;
 }
+
 .form-input-error-message {
   color: red;
   font-weight: 500;
