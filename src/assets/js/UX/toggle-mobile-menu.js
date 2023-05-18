@@ -21,7 +21,7 @@ const toggleCloseOpenButtons = () => {
 };
 
 toggleNavbarMenuButtons.forEach((button) => {
-  button.addEventListener("click", () => {
+  button.addEventListener('click', () => {
     toggleMobileMenu();
     toggleMobileMenuLinksVisibility();
     toggleCloseOpenButtons();
