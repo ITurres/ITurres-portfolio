@@ -19,8 +19,8 @@ const injectProjectAboutModalTemplate = (projectsData) => {
   });
 
   closeModal(projectAboutModalHolder);
-  /* ? ^^^^ when the project about modal has been 
-  ? created, only then it can listen for its close button click */
+  // ? ^^^^ when the project about modal has been
+  // ? created, only then it can listen for its close button click
 };
 
 const checkIfButtonIdMatchesProjectId = (buttonId) => {

@@ -50,5 +50,4 @@ export const projectAboutModal = (...projectsData) => {
     </div>`;
 };
 
-export const modalTechStackMarkupTemplate = (stackName) =>
-  `<li class="projects-card__tech-stack">${stackName}</li>`;
+export const modalTechStackMarkupTemplate = (stackName) => `<li class="projects-card__tech-stack">${stackName}</li>`;
