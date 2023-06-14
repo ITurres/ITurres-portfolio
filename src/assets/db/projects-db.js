@@ -1,9 +1,11 @@
+const projectDataImgSrcPath = 'src/assets/media/projects-src/';
+
 const projectsdb = {
   project_1: {
     id: 1,
     data: {
       img: {
-        src: 'src/assets/media/projects-src/youtube-clone-preview.JPG',
+        src: `${projectDataImgSrcPath}youtube-clone-preview.JPG`,
         alt: 'youtube clone preview'
       },
       name: {
@@ -22,7 +24,7 @@ const projectsdb = {
     id: 2,
     data: {
       img: {
-        src: 'src/assets/media/projects-src/text-encrypter-preview.JPG',
+        src: `${projectDataImgSrcPath}text-encrypter-preview.JPG`,
         alt: 'text encryptor preview'
       },
       name: {
@@ -43,7 +45,7 @@ const projectsdb = {
     id: 3,
     data: {
       img: {
-        src: 'src/assets/media/projects-src/theDungeonsGame-preview.JPG',
+        src: `${projectDataImgSrcPath}theDungeonsGame-preview.JPG`,
         alt: 'the dungeons game preview'
       },
       name: {
@@ -64,7 +66,7 @@ const projectsdb = {
     id: 4,
     data: {
       img: {
-        src: 'src/assets/media/projects-src/portfolio1-preview.JPG',
+        src: `${projectDataImgSrcPath}portfolio1-preview.JPG`,
         alt: 'emanuel portfolio preview'
       },
       name: {
@@ -83,7 +85,7 @@ const projectsdb = {
     id: 5,
     data: {
       img: {
-        src: 'src/assets/media/projects-src/theTimeMeister-website-preview.JPG',
+        src: `${projectDataImgSrcPath}theTimeMeister-website-preview.JPG`,
         alt: 'the time meister website preview'
       },
       name: {
@@ -103,7 +105,7 @@ const projectsdb = {
     id: 6,
     data: {
       img: {
-        src: 'src/assets/media/projects-src/notes-web-app-preview.JPG',
+        src: `${projectDataImgSrcPath}notes-web-app-preview.JPG`,
         alt: 'notes webb app preview'
       },
       name: {
