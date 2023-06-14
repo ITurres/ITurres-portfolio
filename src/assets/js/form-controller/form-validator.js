@@ -31,4 +31,5 @@ formSubmitButton.addEventListener('click', (event) => {
     addErrorMessageOnDOM('Email must be a valid address, e.g me@mydomain.com.');
     addErrorBorderToElement(formEmailInput);
   }
+  localStorage.clear();
 });
