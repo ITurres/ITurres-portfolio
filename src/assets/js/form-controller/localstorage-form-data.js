@@ -34,4 +34,6 @@ formInputs.forEach((input) => {
   });
 });
 
-loadFormDataFromLocalStorage();
+if (window.localStorage.length > 0) {
+  loadFormDataFromLocalStorage();
+}
