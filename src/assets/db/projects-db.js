@@ -120,6 +120,64 @@ const projectsdb = {
       liveVersionHref: 'https://www.youtube.com/watch?v=UJucGYwoDCA',
       sourceCodeHref: 'https://github.com/ITurres/Notes-Web-App'
     }
+  },
+  project_7: {
+    id: 7,
+    data: {
+      img: {
+        src: `${projectDataImgSrcPath}ferrari-racing-website-preview.JPG`,
+        alt: 'ferrari racing website preview'
+      },
+      name: {
+        name1: 'Ferrari',
+        name2: 'Racing Website'
+      },
+      description: `Ferrari Racing Website is a mockup website to practice
+      markup, styles and dynamic markup injection,
+      Understanding Medium-fidelity wireframes,
+      Follow written requirements (e.g. user stories), and much more.`,
+      stack: ['JavaScript', 'HTML', 'CSS', 'Bootstrap'],
+      liveVersionHref: 'https://iturres.github.io/Ferrari-Racing-Website/',
+      sourceCodeHref: 'https://github.com/ITurres/Ferrari-Racing-Website'
+    }
+  },
+  project_8: {
+    id: 8,
+    data: {
+      img: {
+        src: `${projectDataImgSrcPath}awesome-books-preview.JPG`,
+        alt: 'awesome books preview'
+      },
+      name: {
+        name1: 'Awesome Books',
+        name2: ''
+      },
+      description: `A basic website that allows users to add/remove books from a list.
+        The learning objectives were to understand different ways to create objects, intro
+        to CRUD and more.`,
+      stack: ['JavaScript', 'HTML', 'CSS', 'Bootstrap'],
+      liveVersionHref: 'https://iturres.github.io/Awesome-Books/',
+      sourceCodeHref: 'https://github.com/ITurres/Awesome-Books'
+    }
+  },
+  project_9: {
+    id: 9,
+    data: {
+      img: {
+        src: `${projectDataImgSrcPath}task-manager-preview.JPG`,
+        alt: 'task manager preview'
+      },
+      name: {
+        name1: 'Task Manager',
+        name2: ''
+      },
+      description: `Task Manager is a tool that helps to organize your day.
+      It simply lists the things that you need to do and allows you to mark
+      them as complete.`,
+      stack: ['JavaScript', 'Jest', 'HTML', 'SASS', 'Bootstrap'],
+      liveVersionHref: 'https://iturres.github.io/Task-Manager/dist/',
+      sourceCodeHref: 'https://github.com/ITurres/Task-Manager'
+    }
   }
 };
 
