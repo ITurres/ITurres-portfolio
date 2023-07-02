@@ -194,9 +194,29 @@ const projectsdb = {
       submitted by different players. It also allows you to submit
       your score. All data is preserved thanks to the external
       &#128279; Leaderboard <strong>API</strong>.`,
-      stack: ['JavaScript', 'HTML', 'SASS', 'Bootstrap'],
+      stack: ['JavaScript', 'HTML', 'SASS', 'Bootstrap', 'API consumer'],
       liveVersionHref: 'https://iturres.github.io/Leaderboard/dist/',
       sourceCodeHref: 'https://github.com/ITurres/Leaderboard'
+    }
+  },
+  project_11: {
+    id: 11,
+    data: {
+      img: {
+        src: `${projectDataImgSrcPath}tvmaze-preview.JPG`,
+        alt: 'tvmaze movies website preview'
+      },
+      name: {
+        name1: 'TVMaze',
+        name2: 'Movies & Shows'
+      },
+      description: `&#127909; TVMaze was a Team project. An SPA website where you can see top
+       shows related info taken from <strong><i>TVmaze<i/> API</strong>. You can also like
+      them,
+      and add comments thanks to the <strong><i>Involvement</i> API</strong>.`,
+      stack: ['JavaScript', 'HTML', 'CSS', 'Bootstrap', 'API consumer'],
+      liveVersionHref: 'https://iturres.github.io/TVmaze-movies-website/dist/',
+      sourceCodeHref: 'https://github.com/ITurres/TVmaze-movies-website'
     }
   }
 };
