@@ -178,6 +178,26 @@ const projectsdb = {
       liveVersionHref: 'https://iturres.github.io/Task-Manager/dist/',
       sourceCodeHref: 'https://github.com/ITurres/Task-Manager'
     }
+  },
+  project_10: {
+    id: 10,
+    data: {
+      img: {
+        src: `${projectDataImgSrcPath}leaderboard-preview.JPG`,
+        alt: 'leaderboard preview'
+      },
+      name: {
+        name1: 'Leaderboard',
+        name2: ''
+      },
+      description: `🏆 The leaderboard website displays scores
+      submitted by different players. It also allows you to submit
+      your score. All data is preserved thanks to the external
+      🔗Leaderboard API service.`,
+      stack: ['JavaScript', 'HTML', 'SASS', 'Bootstrap'],
+      liveVersionHref: 'https://iturres.github.io/Leaderboard/dist/',
+      sourceCodeHref: 'https://github.com/ITurres/Leaderboard'
+    }
   }
 };
 
