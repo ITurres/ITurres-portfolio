@@ -12,7 +12,7 @@ const projectsdb = {
         name1: 'Youtube Clone',
         name2: 'Layout and Styles only'
       },
-      description: `The youtube clone webpage was a project to consolidate HTML
+      description: `&#127909; The youtube clone webpage was a project to consolidate HTML
       layouts as well as CSS styles, in order to fully
       copy 2023's youtube video player webpage.`,
       stack: ['JavaScript', 'HTML', 'CSS'],
@@ -31,7 +31,7 @@ const projectsdb = {
         name1: 'Text Encryptor',
         name2: 'Webpage'
       },
-      description: `This project was a learning project for the Programming Course
+      description: `&#128274; This project was a learning project for the Programming Course
       provided by Oracle + Alura Latam.
       The project consisted of creating a text encryption program 
       with JavaScript. In turn, once the logic of the program is finished,
@@ -52,11 +52,11 @@ const projectsdb = {
         name1: 'The Dungeons',
         name2: 'Game'
       },
-      description: `The game is based on the Hang-Man game!.
+      description: `&#x2694; The game is based on the Hang-Man game!.
       You have 7 lives and you must guess the correct characters
       that form the Winner word, for every life you lose,
       there goes your extremities, if you get to form
-      the word before they hang you, you get King Arthur's Sword.`,
+      the word before they hang you, you get King Arthur's Sword. &#x2694;`,
       stack: ['JavaScript', 'HTML', 'CSS'],
       liveVersionHref: 'https://iturres.github.io/The-Dungeons-Game/',
       sourceCodeHref: 'https://github.com/ITurres/The-Dungeons-Game'
@@ -92,10 +92,10 @@ const projectsdb = {
         name1: 'The Time Meister',
         name2: 'E-commerce'
       },
-      description: `The Time Meister e-commerce is a website that resembles
+      description: `&#8986; The Time Meister e-commerce is a website that resembles
       the rolex.com site, was a project to continue learning
       and practicing the technologies listed above as well
-      as to follow an established design.`,
+      as to follow an established design. &#128722;`,
       stack: ['JavaScript', 'Node.js', 'HTML', 'CSS'],
       liveVersionHref: 'https://iturres.github.io/ttm-e-commerce/',
       sourceCodeHref: 'https://github.com/ITurres/ttm-e-commerce'
@@ -112,7 +112,7 @@ const projectsdb = {
         name1: 'Notes',
         name2: 'Web App'
       },
-      description: `“Notes” is my cs50x final project Web Application. 
+      description: `&#128221; “Notes” is my cs50x final project Web Application. 
       It is a basic web app that resembles a bit like 'Notes' from iCloud,
       and where you can create an account, sign in and start creating,
       updating, and deleting your notes, plus search for specific ones given their content.`,
@@ -132,10 +132,10 @@ const projectsdb = {
         name1: 'Ferrari',
         name2: 'Racing Website'
       },
-      description: `Ferrari Racing Website is a mockup website to practice
+      description: `&#127937; Ferrari Racing Website is a mockup website to practice
       markup, styles and dynamic markup injection,
       Understanding Medium-fidelity wireframes,
-      Follow written requirements (e.g. user stories), and much more.`,
+      follow written requirements (e.g. user stories), and much more.`,
       stack: ['JavaScript', 'HTML', 'CSS', 'Bootstrap'],
       liveVersionHref: 'https://iturres.github.io/Ferrari-Racing-Website/',
       sourceCodeHref: 'https://github.com/ITurres/Ferrari-Racing-Website'
@@ -152,7 +152,7 @@ const projectsdb = {
         name1: 'Awesome Books',
         name2: ''
       },
-      description: `A basic website that allows users to add/remove books from a list.
+      description: `&#128218; A basic website that allows users to add/remove books from a list.
         The learning objectives were to understand different ways to create objects, intro
         to CRUD and more.`,
       stack: ['JavaScript', 'HTML', 'CSS', 'Bootstrap'],
@@ -171,9 +171,9 @@ const projectsdb = {
         name1: 'Task Manager',
         name2: ''
       },
-      description: `Task Manager is a tool that helps to organize your day.
+      description: `&#9997; Task Manager is a tool that helps to organize your day.
       It simply lists the things that you need to do and allows you to mark
-      them as complete.`,
+      them as complete. &#x1F9EA; Tested with Jest &#x1F9EA;.`,
       stack: ['JavaScript', 'Jest', 'HTML', 'SASS', 'Bootstrap'],
       liveVersionHref: 'https://iturres.github.io/Task-Manager/dist/',
       sourceCodeHref: 'https://github.com/ITurres/Task-Manager'
@@ -190,10 +190,10 @@ const projectsdb = {
         name1: 'Leaderboard',
         name2: ''
       },
-      description: `🏆 The leaderboard website displays scores
+      description: `&#127942; The leaderboard website displays scores
       submitted by different players. It also allows you to submit
       your score. All data is preserved thanks to the external
-      🔗Leaderboard API service.`,
+      &#128279; Leaderboard <strong>API</strong>.`,
       stack: ['JavaScript', 'HTML', 'SASS', 'Bootstrap'],
       liveVersionHref: 'https://iturres.github.io/Leaderboard/dist/',
       sourceCodeHref: 'https://github.com/ITurres/Leaderboard'
