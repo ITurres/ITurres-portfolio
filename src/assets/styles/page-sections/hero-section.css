@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("../../media/sections-illustrations/mobile-illustrations/illsutration-header-mobile.png");
+  background-image: url('../../media/sections-illustrations/mobile-illustrations/illsutration-header-mobile.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -21,7 +21,7 @@
 .hero-section__title,
 .hero-section__subtitle,
 .hero-section__intro {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   margin: 0; /* ? resets -normalize- margin */
   margin: 0 0.5rem;
 }
@@ -48,5 +48,12 @@
 }
 
 .hero-section__link {
-  padding: 1rem 0.5rem;
+  padding: 0.5rem;
+  padding-bottom: 0;
+  transition: all 0.1s ease-in-out;
+}
+
+.hero-section__link:hover {
+  border-bottom: 2px solid var(--style-color-aqua-green-hover);
+  padding-bottom: 0.5rem;
 }
