@@ -4,7 +4,10 @@
   align-items: center;
   background-color: var(--style-color-white);
   padding: 0.8rem;
-  z-index: 10; /* ? do to 'go-down-btn' that has position absolute */
+  position: relative;
+  z-index: 10;
+
+  /* ? do to 'go-down-btn' that has position absolute */
 }
 
 .my-navbar.toggle-mobile-menu ul {
@@ -17,7 +20,7 @@
 }
 
 .my-navbar a {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 2rem;
   line-height: 2.75rem;
