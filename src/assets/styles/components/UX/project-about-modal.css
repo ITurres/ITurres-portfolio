@@ -35,6 +35,8 @@
   align-items: center;
   background-color: var(--style-color-white);
   margin: 0 auto;
+  -webkit-animation: animatezoom 1s;
+  animation: animatezoom 1s;
 }
 
 .modal-close-btn--wrapper {
