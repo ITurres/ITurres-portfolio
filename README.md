@@ -209,9 +209,6 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Dynamic style
-- Several webpages
-- links pointing to projects
 - link pointing to resume
 
 <!-- I will keep this for future reference -->
