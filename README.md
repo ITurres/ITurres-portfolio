@@ -38,17 +38,18 @@
 
 # 📖 Hello Microverse <a name="about-project"></a>
 
-**ITurres Portftolio** is a project meant to practice linters on HTML and CSS, GitHub_flow, pull_request and -more- (-to be updated-).
+**ITurres Portftolio** is a project meant to practice linters on HTML and CSS, GitHub_flow, pull_request and more.
 
 ## 🛠 Built With <a name="built-with"></a>
 
+- JavaScript
 - HTML
 - CSS
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
+  <summary>Markup</summary>
   <ul>
     <li><a href="#">HTML</a></li>
   </ul>
@@ -61,16 +62,12 @@
   </ul>
 </details>
 
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-- Linters
-
-<!-- I will keep this for future reference -->
-<!-- - **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]** -->
+<details>
+  <summary>Dynamism</summary>
+  <ul>
+    <li><a href="#">JavaScript</a></li>
+  </ul>
+</details>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,7 +104,7 @@ In order to run this project you need:
 Example command:
 
 ```sh
- gem install rails
+ 
 ```
  -->
 
@@ -128,30 +125,12 @@ Install this project with:
 
 > N/A
 
-<!-- I will keep this for future reference -->
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
-
 ### Usage
 
 To run the project, execute the following command:
 
 > Run index.html with LiveServer (or the like) on your Web Browser to view changes.
 
-<!-- I will keep this for future reference -->
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
 
 ### Run tests
 
@@ -159,29 +138,11 @@ To run tests, run the following command:
 
 > No test available
 
-<!-- I will keep this for future reference -->
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
 ### Deployment
 
 You can deploy this project using:
 
 > No deployment available
-
-<!-- I will keep this for future reference -->
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -210,11 +171,6 @@ Example:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - link pointing to resume
-
-<!-- I will keep this for future reference -->
-<!-- - [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]** -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
