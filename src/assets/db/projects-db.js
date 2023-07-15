@@ -218,6 +218,33 @@ const projectsdb = {
       liveVersionHref: 'https://iturres.github.io/TVmaze-movies-website/dist/',
       sourceCodeHref: 'https://github.com/ITurres/TVmaze-movies-website'
     }
+  },
+  project_12: {
+    id: 12,
+    data: {
+      img: {
+        src: `${projectDataImgSrcPath}math-magicians-preview.JPG`,
+        alt: 'math magicians preview'
+      },
+      name: {
+        name1: 'Math Magicians',
+        name2: 'Calculator & Quotes'
+      },
+      description: `"Math magicians &#129497;" is a webapp for all fans
+      of mathematics. It is a Single Page App (SPA) that allows users to:
+        Make simple calculations and read a random learning-related quote thanks to the
+      <strong><i>Ninja</i> API</strong>.`,
+      stack: [
+        'React.js',
+        'JavaScript',
+        'SASS',
+        'Bootstrap',
+        'HTML',
+        'API consumer'
+      ],
+      liveVersionHref: 'https://react-math-magicians-xjeh.onrender.com/',
+      sourceCodeHref: 'https://github.com/ITurres/math-magicians'
+    }
   }
 };
 
