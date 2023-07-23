@@ -245,6 +245,35 @@ const projectsdb = {
       liveVersionHref: 'https://react-math-magicians-xjeh.onrender.com/',
       sourceCodeHref: 'https://github.com/ITurres/math-magicians'
     }
+  },
+  project_13: {
+    id: 13,
+    data: {
+      img: {
+        src: `${projectDataImgSrcPath}bookstore-preview.JPG`,
+        alt: 'bookstore cms preview'
+      },
+      name: {
+        name1: 'Bookstore CMS',
+        name2: ''
+      },
+      description: `"Bookstore CMS &#128218;" An SPA that allows users to 
+      display/add/remove books from a list using React + Redux and the 
+      <strong>Bookstore API</strong>.
+      Working on this project has helped me to understand and learn more about
+      React Router, Redux as a whole, Redux toolkit, and much more.`,
+      stack: [
+        'React.js',
+        'Redux',
+        'JavaScript',
+        'SASS',
+        'Bootstrap',
+        'HTML',
+        'API consumer'
+      ],
+      liveVersionHref: 'https://bookstore-cms-mxhm.onrender.com/',
+      sourceCodeHref: 'https://github.com/ITurres/bookstore-react-app'
+    }
   }
 };
 
