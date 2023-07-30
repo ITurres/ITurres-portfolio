@@ -274,6 +274,35 @@ const projectsdb = {
       liveVersionHref: 'https://iturres.github.io/bookstore-react-app/',
       sourceCodeHref: 'https://github.com/ITurres/bookstore-react-app'
     }
+  },
+  project_14: {
+    id: 14,
+    data: {
+      img: {
+        src: `${projectDataImgSrcPath}spacex-travelers-preview.JPG`,
+        alt: 'spacex travelers hub preview'
+      },
+      name: {
+        name1: 'SpaceX',
+        name2: 'Travelers Hub'
+      },
+      description: `SpaceX Travelers Hub &#128640; - A web application for a 
+      company that provides commercial and scientific space travel services.
+      The application will allow users to book Rockets and join selected
+      Space Missions. Powered By the <strong>SpaceX Web API</strong>.`,
+      stack: [
+        'React.js',
+        'Redux',
+        'JavaScript',
+        'Jest',
+        'CSS',
+        'Bootstrap',
+        'HTML',
+        'API consumer'
+      ],
+      liveVersionHref: 'https://iturres.github.io/spacex-travelers-hub/',
+      sourceCodeHref: 'https://github.com/ITurres/spacex-travelers-hub'
+    }
   }
 };
 
