@@ -242,7 +242,7 @@ const projectsdb = {
         'HTML',
         'API consumer'
       ],
-      liveVersionHref: 'https://react-math-magicians-xjeh.onrender.com/',
+      liveVersionHref: 'https://iturres.github.io/math-magicians/',
       sourceCodeHref: 'https://github.com/ITurres/math-magicians'
     }
   },
@@ -271,7 +271,7 @@ const projectsdb = {
         'HTML',
         'API consumer'
       ],
-      liveVersionHref: 'https://bookstore-cms-mxhm.onrender.com/',
+      liveVersionHref: 'https://iturres.github.io/bookstore-react-app/',
       sourceCodeHref: 'https://github.com/ITurres/bookstore-react-app'
     }
   }
