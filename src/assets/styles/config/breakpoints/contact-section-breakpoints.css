@@ -19,6 +19,7 @@
     font-size: 1.9rem;
     margin: 3rem 1.5rem 3rem 0;
     text-align: justify;
+    line-height: inherit;
   }
 
   .contact-form {
