@@ -303,6 +303,36 @@ const projectsdb = {
       liveVersionHref: 'https://iturres.github.io/spacex-travelers-hub/',
       sourceCodeHref: 'https://github.com/ITurres/spacex-travelers-hub'
     }
+  },
+  project_15: {
+    id: 15,
+    data: {
+      img: {
+        src: `${projectDataImgSrcPath}finance-preview.jpg`,
+        alt: 'finance web app preview'
+      },
+      name: {
+        name1: 'Finance',
+        name2: 'Financial Metrics'
+      },
+      description: `Finance &#128176; - A web app providing comprehensive company
+      data, including financial metrics such as Price, Beta, Volume Average, Market
+      Capitalization, Last Dividend, 52 week range, stock price change, stock price
+      change in percentage, Company Name, Sector, website. Features include personalized
+      watchlists, Mobile-friendly, easy to use, and modern design.
+      Powered By the <Strong>FMP Web API</strong>.`,
+      stack: [
+        'React.js',
+        'Redux',
+        'JavaScript',
+        'Jest',
+        'SASS',
+        'React-Bootstrap',
+        'API consumer'
+      ],
+      liveVersionHref: 'https://iturres.github.io/finance-metrics-web-app/',
+      sourceCodeHref: 'https://github.com/ITurres/finance-metrics-web-app'
+    }
   }
 };
 
