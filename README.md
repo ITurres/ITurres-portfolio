@@ -38,36 +38,24 @@
 
 # 📖 Hello Microverse <a name="about-project"></a>
 
-**ITurres Portftolio** is a project meant to practice linters on HTML and CSS, GitHub_flow, pull_request and more.
+**💼ITurres Portftolio** Welcome to my 2023 portfolio, where I proudly present a collection of projects I've diligently worked on from 2022 until today. Feel free to explore these endeavors and witness the evolution of my skills and creativity. If you're interested in learning more about my background and experience, you can find my resume on this page. For any inquiries or collaboration opportunities, please don't hesitate to reach out through the contact form at the bottom. I'm excited to share my journey with you and look forward to connecting!
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- JavaScript
-- HTML
-- CSS
-
-### Tech Stack <a name="tech-stack"></a>
-
-<details>
-  <summary>Markup</summary>
   <ul>
-    <li><a href="#">HTML</a></li>
+    <li>
+      <img src="https://skillicons.dev/icons?i=js"/>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a>
+    </li>
+    <li>
+      <img src="https://skillicons.dev/icons?i=css"/>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a>
+    </li>
+    <li>
+      <img src="https://skillicons.dev/icons?i=html"/>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a>
+    </li>
   </ul>
-</details>
-
-<details>
-  <summary>Style</summary>
-  <ul>
-    <li><a href="#">CSS</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Dynamism</summary>
-  <ul>
-    <li><a href="#">JavaScript</a></li>
-  </ul>
-</details>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,15 +87,6 @@ In order to run this project you need:
 
 > Open on Visual Studio Code or any other code reader, and use an app as Live Server to review online.
 
-<!-- I will keep this for future reference -->
-<!--
-Example command:
-
-```sh
- 
-```
- -->
-
 ### Setup
 
 Clone this repository to your desired folder:
@@ -131,7 +110,6 @@ To run the project, execute the following command:
 
 > Run index.html with LiveServer (or the like) on your Web Browser to view changes.
 
-
 ### Run tests
 
 To run tests, run the following command:
@@ -153,8 +131,9 @@ You can deploy this project using:
 👤 **Author1**
 
 - GitHub: [@ITurres](https://github.com/ITurres)
-- Twitter: [@Arthur_ITurres](https://twitter.com/ArthurIturres)
 - LinkedIn: [Arthur Emanuel G. Iturres](https://www.linkedin.com/in/arturoemanuelguerraiturres/)
+- Angellist / Wellfound: [Arturo (Arthur) Emanuel Guerra Iturres](https://wellfound.com/u/arturo-arthur-emanuel-guerra-iturres)
+- Youtube: [Arturo Emanuel Guerra Iturres - Youtube Channel](https://www.youtube.com/channel/UC6GFUFHOtBS9mOuI8EJ6q4g)
 
 👤 **Author2**
 
@@ -170,7 +149,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- link pointing to resume
+- [ ] Add more projects to the portfolio.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -196,7 +175,7 @@ Give a ⭐ if you liked this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I thank Microverse for this fantastic opportunity, the code reviewers for their advice and time, and my coding partners [@Alibaba2023](https://github.com/Alibaba2023) and [@ClaudiaRojasSoto ](https://github.com/ClaudiaRojasSoto)!
+I thank the code reviewers for their advice and time, and my coding partners [@Alibaba2023](https://github.com/Alibaba2023) and [@ClaudiaRojasSoto ](https://github.com/ClaudiaRojasSoto).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -204,6 +183,6 @@ I thank Microverse for this fantastic opportunity, the code reviewers for their 
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
