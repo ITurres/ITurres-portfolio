@@ -6,7 +6,7 @@
   alt="logo" width="160"  height="auto" />
 <br>
 
-  <h2><b>ITurres Portftolio</b></h2>
+  <h2><b>ITurres Portfolio</b></h2>
 
 </div>
 
@@ -36,9 +36,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello Microverse <a name="about-project"></a>
+# 📖 ITurres Portfolio <a name="about-project"></a>
 
-**💼ITurres Portftolio** Welcome to my 2023 portfolio, where I proudly present a collection of projects I've diligently worked on from 2022 until today. Feel free to explore these endeavors and witness the evolution of my skills and creativity. If you're interested in learning more about my background and experience, you can find my resume on this page. For any inquiries or collaboration opportunities, please don't hesitate to reach out through the contact form at the bottom. I'm excited to share my journey with you and look forward to connecting!
+**💼Welcome to my 2023 portfolio**, where I proudly present a collection of projects I've diligently worked on from 2022 until today. Feel free to explore these endeavors and witness the evolution of my skills and creativity. If you're interested in learning more about my background and experience, you can find my resume on this page. For any inquiries or collaboration opportunities, please don't hesitate to reach out through the contact form at the bottom. I'm excited to share my journey with you and look forward to connecting!
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -64,8 +64,6 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [ITurres Portfolio - Live Demo Link](https://iturres.github.io/ITurres-portfolio/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
@@ -159,7 +157,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/ITurres/ITurres-portfolio/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
