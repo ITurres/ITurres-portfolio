@@ -3,6 +3,10 @@
     margin: auto;
   }
 
+  .recent-works--expand {
+    max-height: 1655px;
+  }
+
   .recent-works__title {
     margin-bottom: 2rem;
   }
