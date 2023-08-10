@@ -140,12 +140,18 @@
         <hr class="recent-works__hr-line" />
       </div>
       <section
-        class="recent-works projects-container container section-container"
+        class="recent-works projects-container container section-container recent-works--expand"
         data-projects-cards-holder
       >
         <!-- project-cards will be auto injected -->
         <div class="modal" data-modal-holder></div>
       </section>
+      <div class="toggle-projects--holder container">
+        <span id="toggle-projects-span">See more</span>
+        <button id="toggle-projects" class="my-custom-button">
+          <i id="toggle-projects-button-i" class="fa-solid fa-chevron-down"></i>
+        </button>
+      </div>
     </main>
     <section id="about-section">
       <div class="about-section__about-me--wrapper">
@@ -320,6 +326,10 @@
     ></script>
     <script
       src="src/assets/js/UX/toggle-mobile-menu.js"
+      type="application/javascript"
+    ></script>
+    <script
+      src="src/assets/js/UX/toggle-see-projects.js"
       type="application/javascript"
     ></script>
     <script
