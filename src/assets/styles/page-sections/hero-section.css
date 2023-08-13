@@ -7,9 +7,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: calc(100vh - 65px); /* ? removes the navbar height */
-
-  /* ? height: calc(100svh - 65px); unit not currently known by Stylelint */
+  height: 100vh;
   text-align: center;
 }
 
