@@ -2,8 +2,8 @@
 
 <div align="center">
 
-<img src="src/assets/media/sections-illustrations/desktop-illustrations/llustration-header-desktop.png"
-  alt="logo" width="160"  height="auto" />
+<img src="src/assets/media/sections-illustrations/desktop-illustrations/illustration-about-desktop.png"
+  alt="logo" width="100%"  height="auto" />
 <br>
 
   <h2><b>ITurres Portfolio</b></h2>
@@ -17,9 +17,8 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
     - [🚀 Live Demo](#live-demo)
-    - [📹 Loom Walkthrough](#loom-Walkthrough)
+    - [📹 Loom Walkthrough](#loom-walkthrough)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -41,6 +40,8 @@
 **💼Welcome to my 2023 portfolio**, where I proudly present a collection of projects I've diligently worked on from 2022 until today. Feel free to explore these endeavors and witness the evolution of my skills and creativity. If you're interested in learning more about my background and experience, you can find my resume on this page. For any inquiries or collaboration opportunities, please don't hesitate to reach out through the contact form at the bottom. I'm excited to share my journey with you and look forward to connecting!
 
 ## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
 
   <ul>
     <li>
@@ -147,7 +148,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Add more projects to the portfolio.
+- [x] Add more projects to the portfolio.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
